@@ -3,7 +3,7 @@
 <mapper namespace="org.itstack.naive.chat.infrastructure.dao.IGroupsDao">
 
     <select id="queryGroupsById" parameterType="java.lang.String" resultType="org.itstack.naive.chat.infrastructure.po.Groups">
-        SELECT groupId, groupName, groupHead FROM groups where groupId = #{groupId}
+        SELECT groupId, groupName, groupHead FROM `groups` where groupId = #{groupId}
     </select>
 
 </mapper>

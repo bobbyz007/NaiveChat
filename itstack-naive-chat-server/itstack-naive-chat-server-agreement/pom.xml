@@ -20,7 +20,6 @@
     </properties>
 
     <dependencies>
-        <!-- Netty 4.1.36 -->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
